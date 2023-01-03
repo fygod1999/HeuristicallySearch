@@ -193,14 +193,15 @@ def solve(initial, empty_tile_pos, final):
 # Value 0 is used for empty space
 initial = [ [ 1, 2, 3 ],
 			[ 5, 6, 0 ],
-			[ 7, 8, 4 ] ]
+			[ 7, 8, 4 ],
+			[ 9 , 8 , 2] ]
 
 # Solvable Final configuration
 # Value 0 is used for empty space
 final = [ [ 1, 2, 3 ],
 		[ 5, 8, 6 ],
-		[ 0, 7, 4 ] ]
-
+		[ 0, 7, 4 ],
+     		[ 9 , 8 , 2] ]
 # Blank tile coordinates in
 # initial configuration
 empty_tile_pos = [ 1, 2 ]
